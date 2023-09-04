@@ -10,18 +10,16 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <div className="mt-8 container mx-auto">
         <div className="text-center">
-          <span className="text-gray-600 text-3xl font-bold">
-            Kategori Kursus
-          </span>
+          <span className="text-black text-3xl font-bold">Kategori Kursus</span>
         </div>
         <div className="text-center">
           <span className="text-black">
             Lihat selengkapnya dan pilih sesuai minatmu
           </span>
         </div>
-        <div className="mt-4 grid grid-cols-1 p-6 md:grid-cols-5 gap-5">
+        <div className="mt-4 grid grid-cols-1 p-4 md:grid-cols-5 gap-5">
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-7">
               <Image
                 src={gambar1}
                 alt="Picture of the author"
@@ -35,7 +33,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-2">
               <Image
                 src={gambar2}
                 alt="Picture of the author"
@@ -49,7 +47,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-12">
               <Image
                 src={gambar3}
                 alt="Picture of the author"
@@ -63,7 +61,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-2 mt-3">
               <Image
                 src={gambar4}
                 alt="Picture of the author"
@@ -77,7 +75,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-5">
               <Image
                 src={gambar5}
                 alt="Picture of the author"
@@ -91,7 +89,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-7">
               <Image
                 src={gambar1}
                 alt="Picture of the author"
@@ -105,7 +103,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-2">
               <Image
                 src={gambar2}
                 alt="Picture of the author"
@@ -119,7 +117,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-12">
               <Image
                 src={gambar3}
                 alt="Picture of the author"
@@ -133,7 +131,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-2 mt-3">
               <Image
                 src={gambar4}
                 alt="Picture of the author"
@@ -147,7 +145,7 @@ export default function Home() {
           </div>
 
           <div className="drop-shadow shadow-xl border p-4 rounded-2xl">
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 mt-5">
               <Image
                 src={gambar5}
                 alt="Picture of the author"
@@ -164,7 +162,7 @@ export default function Home() {
       <div className="mt-8 mb-5 container mx-auto flex justify-center">
         <a
           href="#"
-          className=" text-center border-2 border-gray-400 text-gray-500 rounded-2xl px-12 py-2 inline-block font-semibold hover:bg-gray-600 hover:text-white"
+          className=" text-center border-2 border-blue-400 text-black rounded-2xl px-12 py-2 inline-block font-regular hover:bg-blue-600 hover:text-white"
         >
           Lihat Semua Kategori
         </a>
