@@ -7,6 +7,8 @@ import gambar2 from "../app/icon/ic-writter.svg";
 
 export default function Home() {
   return (
+    // Kategori Kursus
+
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <div className="mt-8 container mx-auto">
         <div className="text-center">
